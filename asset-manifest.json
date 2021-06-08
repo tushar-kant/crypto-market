@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/crypto-market/static/css/main.7c80f433.chunk.css",
+    "main.js": "/crypto-market/static/js/main.75685beb.chunk.js",
+    "main.js.map": "/crypto-market/static/js/main.75685beb.chunk.js.map",
+    "runtime-main.js": "/crypto-market/static/js/runtime-main.9abdd6d3.js",
+    "runtime-main.js.map": "/crypto-market/static/js/runtime-main.9abdd6d3.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/crypto-market/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.598e3793.chunk.js": "/crypto-market/static/js/2.598e3793.chunk.js",
+    "static/js/2.598e3793.chunk.js.map": "/crypto-market/static/js/2.598e3793.chunk.js.map",
+    "static/js/3.5082df8f.chunk.js": "/crypto-market/static/js/3.5082df8f.chunk.js",
+    "static/js/3.5082df8f.chunk.js.map": "/crypto-market/static/js/3.5082df8f.chunk.js.map",
+    "index.html": "/crypto-market/index.html",
+    "static/css/2.61b4cb56.chunk.css.map": "/crypto-market/static/css/2.61b4cb56.chunk.css.map",
+    "static/css/main.7c80f433.chunk.css.map": "/crypto-market/static/css/main.7c80f433.chunk.css.map",
+    "static/js/2.598e3793.chunk.js.LICENSE.txt": "/crypto-market/static/js/2.598e3793.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9abdd6d3.js",
+    "static/css/2.61b4cb56.chunk.css",
+    "static/js/2.598e3793.chunk.js",
+    "static/css/main.7c80f433.chunk.css",
+    "static/js/main.75685beb.chunk.js"
+  ]
+}
