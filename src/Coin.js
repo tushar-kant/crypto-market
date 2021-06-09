@@ -24,7 +24,7 @@ const Coin = ({
         <div className='coin-data col'>
           <p className='coin-price '>price:${price}</p>
           <p className='coin-volume '>volume:${volume.toLocaleString()}</p>
-          <p className='coin-volume '>24hrs-low:${low}</p>
+          <p className='coin-volume '>24hrs-slow:${low}</p>
           <p className='coin-volume '>24hrs-high:${high}</p>
 
           {priceChange < 0 ? (
