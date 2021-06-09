@@ -39,9 +39,10 @@
   background-image: linear-gradient(
     -225deg,
     #1a2c91 0%,
-    #9b5933 48%,
+    #9b5933 38%,
     #31d63e 10%,
-    yellow 40%
+    yellow 30%,
+    purple 20%
   );
 
   color: #e2e2e2;
