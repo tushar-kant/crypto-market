@@ -33,7 +33,7 @@ function App() {
     <div className='coin-app'>
     <h5>all coins are here...</h5>
       <div className='coin-search'>
-        <h1 className='coin-text'>Search a crypto</h1>
+        <h1 className='coin-text'>Search a crypto you want</h1>
         <form>
           <input
             className='coin-input'
@@ -54,6 +54,8 @@ function App() {
             volume={coin.market_cap}
             image={coin.image}
             priceChange={coin.price_change_percentage_24h}
+            low={coin.low_24h}
+            high={coin.high_24h}
           />
         );
       })}

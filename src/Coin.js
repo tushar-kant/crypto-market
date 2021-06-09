@@ -9,7 +9,9 @@ const Coin = ({
   marketcap,
   volume,
   image,
-  priceChange
+  priceChange,
+  low,
+  high
 }) => {
   return (
     <div className='coin-container container-fluid'>
@@ -22,6 +24,8 @@ const Coin = ({
         <div className='coin-data col'>
           <p className='coin-price '>price:${price}</p>
           <p className='coin-volume '>volume:${volume.toLocaleString()}</p>
+          <p className='coin-volume '>24hrs-low:${low}</p>
+          <p className='coin-volume '>24hrs-high:${high}</p>
 
           {priceChange < 0 ? (
             <p className='coin-percent red'>{priceChange.toFixed(2)}%</p>
@@ -32,6 +36,7 @@ const Coin = ({
           <p className='coin-marketcap '>
             Mkt Cap: ${marketcap.toLocaleString()}
           </p>
+          
         </div>
       </div>
     </div>
