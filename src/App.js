@@ -30,36 +30,50 @@ function App() {
   );
 
   return (
-    <div className='coin-app'>
-    <h5>all coins are here...</h5>
-      <div className='coin-search'>
-        <h1 className='coin-text'>Search a crypto you want</h1>
-        <form>
-          <input
-            className='coin-input'
-            type='text'
-            onChange={handleChange}
-            placeholder='Search'
-          />
-        </form>
+    <>
+      <nav className="navbar navbar-dark bg-light">
+        <div className="container-fluid">
+          <span className="navbar-brand mb-0 h1">CRYPTO MARKET</span>
+        </div>
+      </nav>
+      <div className='coin-app'>
+
+
+
+        <h5>all coins are here...</h5>
+        <div className='coin-search'>
+          <h1 className='coin-text'>Search a crypto you want</h1>
+
+
+
+
+          <form>
+            <input
+              className='coin-input'
+              type='text'
+              onChange={handleChange}
+              placeholder='Search'
+            />
+          </form>
+        </div>
+        {filteredCoins.map(coin => {
+          return (
+            <Coin
+              key={coin.id}
+              name={coin.name}
+              price={coin.current_price}
+              symbol={coin.symbol}
+              marketcap={coin.total_volume}
+              volume={coin.market_cap}
+              image={coin.image}
+              priceChange={coin.price_change_percentage_24h}
+              low={coin.low_24h}
+              high={coin.high_24h}
+            />
+          );
+        })}
       </div>
-      {filteredCoins.map(coin => {
-        return (
-          <Coin
-            key={coin.id}
-            name={coin.name}
-            price={coin.current_price}
-            symbol={coin.symbol}
-            marketcap={coin.total_volume}
-            volume={coin.market_cap}
-            image={coin.image}
-            priceChange={coin.price_change_percentage_24h}
-            low={coin.low_24h}
-            high={coin.high_24h}
-          />
-        );
-      })}
-    </div>
+    </>
   );
 }
 
