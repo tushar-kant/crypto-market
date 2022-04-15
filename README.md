@@ -1,3 +1,4 @@
+<h1 align="center">Hi 👋, I'm Tusharkanta</h1>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
